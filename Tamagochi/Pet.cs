@@ -25,7 +25,7 @@ namespace Tamagochi
         public int Boredom { get; private set; } = 50;
         public void Feed()
         {
-            Hunger -= 30;
+            Hunger -= -15;
             Boredom += 15;
             Console.WriteLine("Feeding");
         }
